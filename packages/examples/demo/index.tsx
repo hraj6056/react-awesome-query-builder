@@ -13,7 +13,7 @@ import Immutable from "immutable";
 import clone from "clone";
 
 const stringify = JSON.stringify;
-const {elasticSearchFormat, queryBuilderFormat, jsonLogicFormat, queryString, _mongodbFormat, _sqlFormat, _spelFormat, getTree, checkTree, loadTree, uuid, loadFromJsonLogic, loadFromSpel, isValidTree} = Utils;
+const {celFormat, elasticSearchFormat, queryBuilderFormat, jsonLogicFormat, queryString, _mongodbFormat, _sqlFormat, _spelFormat, getTree, checkTree, loadTree, uuid, loadFromJsonLogic, loadFromSpel, isValidTree} = Utils;
 const preStyle = { backgroundColor: "darkgrey", margin: "10px", padding: "10px" };
 const preErrorStyle = { backgroundColor: "lightpink", margin: "10px", padding: "10px" };
 
@@ -297,11 +297,21 @@ const DemoQueryBuilder: React.FC = () => {
     const [sql, sqlErrors] = _sqlFormat(immutableTree, config);
     const [mongo, mongoErrors] = _mongodbFormat(immutableTree, config);
     const elasticSearch = elasticSearchFormat(immutableTree, config);
+    const celStr = celFormat(immutableTree, config);
 
     return (
       <div>
         {isValid ? null : <pre style={preErrorStyle}>{"Tree has errors"}</pre>}
         <br />
+
+        <div>
+        celFormat: 
+          <pre style={preStyle}>
+            {stringify(celStr, undefined, 2)}
+          </pre>
+        </div>
+        <hr/>
+
         <div>
         spelFormat: 
           { spelErrors.length > 0 

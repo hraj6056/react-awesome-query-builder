@@ -26,12 +26,12 @@ import { spelEscape as celEscape } from "../utils/export";
 
 // https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/expressions.html#expressions
 
-// export const compareToSign = "${0}.compareTo(${1})";
-// const TypesWithCompareTo = {
-//   datetime: true,
-//   time: true,
-//   date: true,
-// };
+const compareToSign = "${0}.compareTo(${1})";
+const TypesWithCompareTo = {
+  datetime: true,
+  time: true,
+  date: true,
+};
 
 export const celFormat = (tree, config) => {
   return _celFormat(tree, config, false);

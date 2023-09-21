@@ -1664,6 +1664,25 @@ const settings = {
     textarea: ["text"],
   },
 
+  formatCelField:  function (
+    field,
+    parentField,
+    parts,
+    partsExt,
+    fieldDefinition,
+    config
+  ) {
+    let fieldName = partsExt
+      .map(({ key, parent, fieldSeparator: sep }, ind) => {
+        return `${ind ? sep : ''}${key}`;
+      })
+      .join("");
+    if (fieldDefinition.fieldName) {
+      fieldName = field;
+    }
+    return fieldName;
+  },
+
   formatSpelField: function (
     field,
     parentField,

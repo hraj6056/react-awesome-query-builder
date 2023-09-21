@@ -392,6 +392,10 @@ interface Export {
     config: Config,
     syntax?: "ES_6_SYNTAX" | "ES_7_SYNTAX"
   ): Object | undefined;
+  celFormat(
+    tree: ImmutableTree,
+    config: Config,
+  ): string | undefined;
 }
 interface Autocomplete {
   simulateAsyncFetch(
