@@ -4,7 +4,7 @@ import {
   Utils, Query, Builder, MuiConfig,
   //types:
   BuilderProps, ImmutableTree, Config, JsonTree, ZipConfig
-} from "@react-awesome-query-builder/mui";
+} from "@314e-react-awesome-query-builder/mui";
 import type { PostTreeResult, GetTreeResult, PostTreeBody } from "../../pages/api/tree";
 import type { PostConfigBody, PostConfigResult } from "../../pages/api/config";
 import ctx from "./config_ctx";

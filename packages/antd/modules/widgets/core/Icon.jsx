@@ -1,6 +1,6 @@
 import React from "react";
 import { PlusOutlined, PlusCircleOutlined, DeleteFilled, HolderOutlined } from "@ant-design/icons";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@314e-react-awesome-query-builder/ui";
 const { DragIcon } = Utils;
 
 const typeToIcon = {

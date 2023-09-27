@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Cascader, Tooltip } from "antd";
 import {removePrefixPath} from "../../utils/stuff";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@314e-react-awesome-query-builder/ui";
 const { useOnPropsChanged } = Utils.ReactUtils;
 const { getFieldParts } = Utils.ConfigUtils;
 

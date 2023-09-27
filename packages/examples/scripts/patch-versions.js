@@ -10,7 +10,7 @@ if (isInSandbox || !isInWorkspace) {
   const PACKAGE_JSON = path.resolve(PACKAGE, './package.json');
   const pjson = require(PACKAGE_JSON);
   for (const k in pjson['dependencies']) {
-    if (k.indexOf('@react-awesome-query-builder/') === 0) {
+    if (k.indexOf('@314e-react-awesome-query-builder/') === 0) {
       const curr = pjson['dependencies'][k];
       if (curr.indexOf('workspace:') !== -1) {
         pjson['dependencies'][k] = pjson['version'];

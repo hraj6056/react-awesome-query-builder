@@ -2,8 +2,8 @@ import React from "react";
 import {
   Utils as QbUtils, 
   Widgets, Fields, Config, Settings, SpelConcatPart, WidgetProps
-} from "@react-awesome-query-builder/ui";
-import { MaterialConfig } from "@react-awesome-query-builder/material";
+} from "@314e-react-awesome-query-builder/ui";
+import { MaterialConfig } from "@314e-react-awesome-query-builder/material";
 import ReactSelect from "./select";
 
 export default (): Config => {

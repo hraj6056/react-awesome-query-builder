@@ -1,6 +1,6 @@
-# @react-awesome-query-builder/sandbox
+# @314e-react-awesome-query-builder/sandbox
 
-[![npm](https://img.shields.io/npm/v/@react-awesome-query-builder/sandbox.svg)](https://www.npmjs.com/package/@react-awesome-query-builder/sandbox)
+[![npm](https://img.shields.io/npm/v/@314e-react-awesome-query-builder/sandbox.svg)](https://www.npmjs.com/package/@314e-react-awesome-query-builder/sandbox)
 
 Demo app built with `vite`.
 Uses MUI widgets by default.  
@@ -22,8 +22,8 @@ npm i
 npm start
 ```
 
-In first case local `@react-awesome-query-builder/*` packages will be used.  
-In second case `@react-awesome-query-builder/*` packages will be downloaded from NPM.  
+In first case local `@314e-react-awesome-query-builder/*` packages will be used.  
+In second case `@314e-react-awesome-query-builder/*` packages will be downloaded from NPM.  
 
 Then open `http://localhost:5175` in a browser.  
 Feel free to play with code in `src/demo` dir.  

@@ -1,6 +1,6 @@
 {
-  "name": "@react-awesome-query-builder/root",
-  "version": "0.0.0",
+  "name": "@314e-react-awesome-query-builder/root",
+  "version": "0.0.1",
   "private": true,
   "description": "User-friendly query builder for React. Demo: https://ukrbublik.github.io/react-awesome-query-builder",
   "keywords": [
@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ukrbublik/react-awesome-query-builder.git"
+    "url": "git+https://github.com/ukrbublik/react-awesome-query-builder.git"
   },
   "funding": "https://opencollective.com/react-awesome-query-builder",
   "license": "MIT",
@@ -59,18 +59,18 @@
   ],
   "scripts": {
     "build": "pnpm run build-libs && pnpm run build-examples",
-    "build-libs": "pnpm --filter @react-awesome-query-builder/examples^... run build",
-    "build-examples": "pnpm --filter !@react-awesome-query-builder/examples^... run build",
-    "test": "pnpm --filter @react-awesome-query-builder/tests run test",
-    "test-debug": "pnpm --filter @react-awesome-query-builder/tests run test-debug",
+    "build-libs": "pnpm --filter @314e-react-awesome-query-builder/examples^... run build",
+    "build-examples": "pnpm --filter !@314e-react-awesome-query-builder/examples^... run build",
+    "test": "pnpm --filter @314e-react-awesome-query-builder/tests run test",
+    "test-debug": "pnpm --filter @314e-react-awesome-query-builder/tests run test-debug",
     "check-hot": "pnpm -r --parallel --aggregate-output --reporter=append-only check-hot",
     "clean": "sh ./scripts/clean.sh",
     "lint": "pnpm -r --parallel --aggregate-output --reporter=append-only run lint",
     "lint-fix": "pnpm -r --parallel --aggregate-output --reporter=append-only run lint-fix",
-    "examples": "pnpm --filter @react-awesome-query-builder/examples run start",
-    "sandbox-js": "pnpm --filter @react-awesome-query-builder/sandbox-simple run start",
-    "sandbox-ts": "pnpm --filter @react-awesome-query-builder/sandbox run start",
-    "sandbox-next": "pnpm --filter @react-awesome-query-builder/sandbox-next run start",
+    "examples": "pnpm --filter @314e-react-awesome-query-builder/examples run start",
+    "sandbox-js": "pnpm --filter @314e-react-awesome-query-builder/sandbox-simple run start",
+    "sandbox-ts": "pnpm --filter @314e-react-awesome-query-builder/sandbox run start",
+    "sandbox-next": "pnpm --filter @314e-react-awesome-query-builder/sandbox-next run start",
     "sandbox": "pnpm run sandbox-ts",
     "start": "pnpm run examples",
     "resmoke": "pnpm run clean && pnpm i && pnpm run smoke",
@@ -109,5 +109,13 @@
   },
   "overrides": {
     "@types/react": "^17"
+  },
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "eslint-import-resolver-node": "^0.3.7",
+    "eslint-module-utils": "^2.8.0",
+    "eslint-rule-composer": "^0.3.0",
+    "eslint-scope": "^7.2.1",
+    "eslint-visitor-keys": "^2.1.0"
   }
 }

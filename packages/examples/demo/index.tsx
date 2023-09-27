@@ -11,7 +11,7 @@ import {
   JsonLogicTree,
   ActionMeta,
   Actions,
-} from "@react-awesome-query-builder/ui";
+} from "@314e-react-awesome-query-builder/ui";
 import ImportSkinStyles from "../skins";
 import throttle from "lodash/throttle";
 import loadConfig from "./config";

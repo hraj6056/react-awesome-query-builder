@@ -1,10 +1,10 @@
-import { CoreConfig } from "@react-awesome-query-builder/core";
-import { Config, BasicConfig } from "@react-awesome-query-builder/ui";
-import { MuiConfig } from "@react-awesome-query-builder/mui";
-import { MaterialConfig } from "@react-awesome-query-builder/material";
-import { AntdConfig } from "@react-awesome-query-builder/antd";
-import { BootstrapConfig } from "@react-awesome-query-builder/bootstrap";
-import { FluentUIConfig } from "@react-awesome-query-builder/fluent";
+import { CoreConfig } from "@314e-react-awesome-query-builder/core";
+import { Config, BasicConfig } from "@314e-react-awesome-query-builder/ui";
+import { MuiConfig } from "@314e-react-awesome-query-builder/mui";
+import { MaterialConfig } from "@314e-react-awesome-query-builder/material";
+import { AntdConfig } from "@314e-react-awesome-query-builder/antd";
+import { BootstrapConfig } from "@314e-react-awesome-query-builder/bootstrap";
+import { FluentUIConfig } from "@314e-react-awesome-query-builder/fluent";
 import * as configs from "../support/configs";
 import * as inits from "../support/inits";
 import { UNSAFE_serializeConfig, UNSAFE_deserializeConfig, export_checks } from "../support/utils";

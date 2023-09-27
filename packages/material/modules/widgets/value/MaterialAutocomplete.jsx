@@ -9,7 +9,7 @@ import Box from "@material-ui/core/Box";
 import { makeStyles } from "@material-ui/core/styles";
 import CheckBoxOutlineBlankIcon from "@material-ui/icons/CheckBoxOutlineBlank";
 import CheckBoxIcon from "@material-ui/icons/CheckBox";
-import { Hooks, Utils } from "@react-awesome-query-builder/ui";
+import { Hooks, Utils } from "@314e-react-awesome-query-builder/ui";
 const { useListValuesAutocomplete } = Hooks;
 
 const nonCheckedIcon = <CheckBoxOutlineBlankIcon fontSize="small" style={{ marginRight: 10, marginTop: 4 }} />;

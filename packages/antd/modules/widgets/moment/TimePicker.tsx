@@ -1,4 +1,4 @@
-import type { Moment } from "@react-awesome-query-builder/ui";
+import type { Moment } from "@314e-react-awesome-query-builder/ui";
 import * as React from "react";
 import type { PickerTimeProps } from "antd/es/date-picker/generatePicker";
 import DatePicker from "./DatePicker";

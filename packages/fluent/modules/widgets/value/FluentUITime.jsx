@@ -1,6 +1,6 @@
 import React from "react";
 import { TimePicker } from "@fluentui/react";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@314e-react-awesome-query-builder/ui";
 const { moment } = Utils;
 
 export default (props) => {

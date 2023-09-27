@@ -1,5 +1,5 @@
 
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "@314e-react-awesome-query-builder/core";
 const { uuid } = Utils;
 
 export const tree_with_empty_group = {

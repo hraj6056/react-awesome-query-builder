@@ -2,7 +2,7 @@ import React from "react";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import FormControl from "@mui/material/FormControl";
 import TextField from "@mui/material/TextField";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@314e-react-awesome-query-builder/ui";
 const { moment } = Utils;
 
 export default (props) => {

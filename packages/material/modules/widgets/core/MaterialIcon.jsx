@@ -3,7 +3,7 @@ import DeleteIcon from "@material-ui/icons/Delete";
 import AddIcon from "@material-ui/icons/Add";
 import DragHandle from "@material-ui/icons/DragHandle";
 import Icon from "@material-ui/core/Icon";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@314e-react-awesome-query-builder/ui";
 const { DragIcon } = Utils;
 
 const typeToIcon = {

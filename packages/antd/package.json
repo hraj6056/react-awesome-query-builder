@@ -1,5 +1,5 @@
 {
-  "name": "@react-awesome-query-builder/antd",
+  "name": "@314e-react-awesome-query-builder/antd",
   "version": "6.4.1",
   "description": "User-friendly query builder for React. AntDesign widgets",
   "keywords": [
@@ -47,7 +47,7 @@
     "tsc": "tsc -p . --noEmit"
   },
   "dependencies": {
-    "@react-awesome-query-builder/ui": "workspace:^",
+    "@314e-react-awesome-query-builder/ui": "workspace:^",
     "lodash": "^4.17.21",
     "prop-types": "^15.7.2",
     "rc-picker": "^3.1.4"

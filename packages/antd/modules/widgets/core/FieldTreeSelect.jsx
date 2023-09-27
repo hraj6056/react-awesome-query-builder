@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Tooltip, TreeSelect } from "antd";
 import {BUILT_IN_PLACEMENTS, SELECT_WIDTH_OFFSET_RIGHT, calcTextWidth} from "../../utils/domUtils";
 import PropTypes from "prop-types";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@314e-react-awesome-query-builder/ui";
 const { useOnPropsChanged } = Utils.ReactUtils;
 
 const mapFieldItemToOptionKeys = {

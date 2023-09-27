@@ -1,5 +1,5 @@
 import React, { Component, PureComponent } from "react";
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "@314e-react-awesome-query-builder/core";
 import PropTypes from "prop-types";
 import FuncSelect from "./FuncSelect";
 import Widget from "./Widget";

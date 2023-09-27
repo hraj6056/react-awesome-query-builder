@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Slider, InputNumber, Col } from "antd";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@314e-react-awesome-query-builder/ui";
 const { useOnPropsChanged, pureShouldComponentUpdate } = Utils.ReactUtils;
 const __isInternal = true; //true to optimize render
 

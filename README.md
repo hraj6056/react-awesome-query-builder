@@ -7,7 +7,7 @@
 [![Financial Contributors on Open Collective](https://opencollective.com/react-awesome-query-builder/all/badge.svg?label=financial+contributors)](https://opencollective.com/react-awesome-query-builder)
 -->
 
-[![npm](https://img.shields.io/npm/v/@react-awesome-query-builder/ui.svg)](https://www.npmjs.com/package/@react-awesome-query-builder/ui)
+[![npm](https://img.shields.io/npm/v/@314e-react-awesome-query-builder/ui.svg)](https://www.npmjs.com/package/@314e-react-awesome-query-builder/ui)
 [![Smoke](https://github.com/ukrbublik/react-awesome-query-builder/actions/workflows/smoke.yml/badge.svg?text=Test)](https://github.com/ukrbublik/react-awesome-query-builder/actions/workflows/smoke.yml?query=branch%3Amaster)
 [![codecov](https://codecov.io/gh/ukrbublik/react-awesome-query-builder/branch/master/graph/badge.svg?date=20201002)](https://codecov.io/gh/ukrbublik/react-awesome-query-builder)
 [![antd](https://img.shields.io/badge/skin-Ant%20Design-blue?logo=Ant%20Design)](https://ant.design)
@@ -90,13 +90,13 @@ See [live demo](https://ukrbublik.github.io/react-awesome-query-builder)
 
 ## Getting started
 From v6 library is divided into packages:
-- [`@react-awesome-query-builder/core`](/packages/core) - has core functionality to import/export/store query, provides utils
-- [`@react-awesome-query-builder/ui`](/packages/ui) - has core React components like `<Query>` `<Builder>` and CSS, provides config with basic (vanilla) widgets
-- [`@react-awesome-query-builder/antd`](/packages/antd) - provides config with [Ant Design](https://ant.design/) widgets
-- [`@react-awesome-query-builder/mui`](/packages/mui) - provides config with [MUI](https://mui.com/) widgets
-- [`@react-awesome-query-builder/material`](/packages/material) - provides config with [Material-UI v4](https://v4.mui.com/) widgets (deprecated)
-- [`@react-awesome-query-builder/bootstrap`](/packages/bootstrap) - provides config with [Bootstrap](https://reactstrap.github.io/) widgets
-- [`@react-awesome-query-builder/fluent`](/packages/fluent) - provides config with [Fluent UI](https://developer.microsoft.com/en-us/fluentui) widgets
+- [`@314e-react-awesome-query-builder/core`](/packages/core) - has core functionality to import/export/store query, provides utils
+- [`@314e-react-awesome-query-builder/ui`](/packages/ui) - has core React components like `<Query>` `<Builder>` and CSS, provides config with basic (vanilla) widgets
+- [`@314e-react-awesome-query-builder/antd`](/packages/antd) - provides config with [Ant Design](https://ant.design/) widgets
+- [`@314e-react-awesome-query-builder/mui`](/packages/mui) - provides config with [MUI](https://mui.com/) widgets
+- [`@314e-react-awesome-query-builder/material`](/packages/material) - provides config with [Material-UI v4](https://v4.mui.com/) widgets (deprecated)
+- [`@314e-react-awesome-query-builder/bootstrap`](/packages/bootstrap) - provides config with [Bootstrap](https://reactstrap.github.io/) widgets
+- [`@314e-react-awesome-query-builder/fluent`](/packages/fluent) - provides config with [Fluent UI](https://developer.microsoft.com/en-us/fluentui) widgets
 
 ```mermaid
 graph LR;
@@ -116,7 +116,7 @@ This is useful if you want to pass query value from frontend to backend in JSON 
 
 Example of installation if you use [MUI](https://mui.com/):
 ```
-npm i @react-awesome-query-builder/mui --save
+npm i @314e-react-awesome-query-builder/mui --save
 ```
 
 Note: We use [pnpm](https://pnpm.io/). If you want to clone this project and run scripts, please [install pnpm](https://pnpm.io/installation):
@@ -145,9 +145,9 @@ See [API](#api) and [config](#config-format) for documentation.
 import React, {Component} from 'react';
 
 // >>>
-import { Utils as QbUtils, Query, Builder, BasicConfig } from '@react-awesome-query-builder/ui';
-import '@react-awesome-query-builder/ui/css/styles.css';
-// or import '@react-awesome-query-builder/ui/css/compact_styles.css';
+import { Utils as QbUtils, Query, Builder, BasicConfig } from '@314e-react-awesome-query-builder/ui';
+import '@314e-react-awesome-query-builder/ui/css/styles.css';
+// or import '@314e-react-awesome-query-builder/ui/css/compact_styles.css';
 const InitialConfig = BasicConfig;
 // <<<
 
@@ -255,10 +255,10 @@ export default DemoQueryBuilder;
 import React, { useState, useCallback } from "react";
 
 // >>> 
-import type { JsonGroup, Config, ImmutableTree, BuilderProps } from '@react-awesome-query-builder/ui';
-import { Utils as QbUtils, Query, Builder, BasicConfig } from '@react-awesome-query-builder/ui';
-import '@react-awesome-query-builder/ui/css/styles.css';
-// or import '@react-awesome-query-builder/ui/css/compact_styles.css';
+import type { JsonGroup, Config, ImmutableTree, BuilderProps } from '@314e-react-awesome-query-builder/ui';
+import { Utils as QbUtils, Query, Builder, BasicConfig } from '@314e-react-awesome-query-builder/ui';
+import '@314e-react-awesome-query-builder/ui/css/styles.css';
+// or import '@314e-react-awesome-query-builder/ui/css/compact_styles.css';
 const InitialConfig = BasicConfig;
 // <<<
 
@@ -451,7 +451,7 @@ Wrapping in `div.query-builder-container` is necessary if you put query builder 
   Returns compressed config that can be serialized to JSON and saved on server.  
   `ZipConfig` is a special format that contains only changes agains `baseConfig`.  
   `baseConfig` is a config you used as a base for constructing `config`, like `InitialConfig` in examples above.  
-  It depends on UI framework you choose - eg. if you use `@react-awesome-query-builder/mui`, please provide `MuiConfig` to `baseConfig`. 
+  It depends on UI framework you choose - eg. if you use `@314e-react-awesome-query-builder/mui`, please provide `MuiConfig` to `baseConfig`. 
   #### decompressConfig(zipConfig, baseConfig, ctx?) -> Config
   Converts `zipConfig` (compressed config you receive from server) to a full config that can be passed to `<Query />`.  
   `baseConfig` is a config to be used as a base for constructing your config, like `InitialConfig` in examples above.  
@@ -523,7 +523,7 @@ Now config has new [`ctx`](#ctx) property. Make sure you add it to your config.
 Typically you just need to copy it from basic config.
 So if you create config like this, you don't need to make any changes:
 ```js
-import { MuiConfig } from "@react-awesome-query-builder/mui";
+import { MuiConfig } from "@314e-react-awesome-query-builder/mui";
 const config = {
   ...MuiConfig,
   fields: {
@@ -534,7 +534,7 @@ const config = {
 
 But if you create config without destructuring of basic config, please add `ctx`:
 ```js
-import { MuiConfig } from "@react-awesome-query-builder/mui";
+import { MuiConfig } from "@314e-react-awesome-query-builder/mui";
 
 const config = {
   ctx: MuiConfig.ctx, // needs to be added for 6.3.0+
@@ -557,54 +557,54 @@ If you use `treeselect` or `treemultiselect` type (for AntDesign), please rename
 
 From version 6 library is divided into [packages](/packages). 
 Please remove package `react-awesome-query-builder` and install one of:
-- [`@react-awesome-query-builder/ui`](/packages/ui)
-- [`@react-awesome-query-builder/antd`](/packages/antd)
-- [`@react-awesome-query-builder/bootstrap`](/packages/bootstrap)
-- [`@react-awesome-query-builder/mui`](/packages/mui)
-- [`@react-awesome-query-builder/material`](/packages/material) (deprecated)
-- [`@react-awesome-query-builder/fluent`](/packages/fluent)
+- [`@314e-react-awesome-query-builder/ui`](/packages/ui)
+- [`@314e-react-awesome-query-builder/antd`](/packages/antd)
+- [`@314e-react-awesome-query-builder/bootstrap`](/packages/bootstrap)
+- [`@314e-react-awesome-query-builder/mui`](/packages/mui)
+- [`@314e-react-awesome-query-builder/material`](/packages/material) (deprecated)
+- [`@314e-react-awesome-query-builder/fluent`](/packages/fluent)
 
 Library code is backward-compatible with version 2-5. 
 You just need to change your imports. 
 
 ```diff
 - import { Utils, Export, Import, BasicFuncs } from 'react-awesome-query-builder';
-+ import { Utils, Export, Import, BasicFuncs } from '@react-awesome-query-builder/ui';
++ import { Utils, Export, Import, BasicFuncs } from '@314e-react-awesome-query-builder/ui';
 
 - import { Query, Builder, BasicConfig, Widgets, Operators } from 'react-awesome-query-builder';
-+ import { Query, Builder, BasicConfig, VanillaWidgets, CustomOperators } from '@react-awesome-query-builder/ui';
++ import { Query, Builder, BasicConfig, VanillaWidgets, CustomOperators } from '@314e-react-awesome-query-builder/ui';
 
 - import AntdConfig from 'react-awesome-query-builder/lib/config/antd';
-+ import {AntdConfig} from '@react-awesome-query-builder/antd';
++ import {AntdConfig} from '@314e-react-awesome-query-builder/antd';
 - import MuiConfig from 'react-awesome-query-builder/lib/config/mui';
-+ import {MuiConfig} from '@react-awesome-query-builder/mui';
++ import {MuiConfig} from '@314e-react-awesome-query-builder/mui';
 - import MaterialConfig from 'react-awesome-query-builder/lib/config/material';
-+ import {MaterialConfig} from '@react-awesome-query-builder/material';
++ import {MaterialConfig} from '@314e-react-awesome-query-builder/material';
 - import BootstrapConfig from 'react-awesome-query-builder/lib/config/bootstrap';
-+ import {BootstrapConfig} from '@react-awesome-query-builder/bootstrap';
++ import {BootstrapConfig} from '@314e-react-awesome-query-builder/bootstrap';
 
 - import 'react-awesome-query-builder/lib/css/styles.css';
-+ import '@react-awesome-query-builder/ui/css/styles.css';
++ import '@314e-react-awesome-query-builder/ui/css/styles.css';
 - import 'react-awesome-query-builder/lib/css/compact_styles.css';
-+ import '@react-awesome-query-builder/ui/css/compact_styles.css'; // instead of styles.css for more compact look
++ import '@314e-react-awesome-query-builder/ui/css/compact_styles.css'; // instead of styles.css for more compact look
 ```
 
 Note that you should import all types and values from a single package.
-For example, `@react-awesome-query-builder/antd` if you use AntDesign - it inherits `core` and `ui`:
+For example, `@314e-react-awesome-query-builder/antd` if you use AntDesign - it inherits `core` and `ui`:
 ```js
-import {Utils, Query, Builder, AntdConfig} from '@react-awesome-query-builder/antd';
+import {Utils, Query, Builder, AntdConfig} from '@314e-react-awesome-query-builder/antd';
 ```
 You don't need to install and import `ui` and `core` packages in this case, just use `antd`.  
 Same for styles - please import from `antd` package:
 ```js
-import '@react-awesome-query-builder/antd/css/styles.css';
+import '@314e-react-awesome-query-builder/antd/css/styles.css';
 ```
 instead of
 ```js
-import '@react-awesome-query-builder/ui/css/styles.css';
+import '@314e-react-awesome-query-builder/ui/css/styles.css';
 ```
 
-If you use vanilla widgets, please install, import and use only `@react-awesome-query-builder/ui` (it inherits `core`). 
+If you use vanilla widgets, please install, import and use only `@314e-react-awesome-query-builder/ui` (it inherits `core`). 
 
 One more thing, if you use Bootstrap widgets, now you need to explicitly import CSS:
 ```js

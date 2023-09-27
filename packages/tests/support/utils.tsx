@@ -13,17 +13,17 @@ import {
   JsonLogicTree, JsonTree, ImmutableTree, ConfigContext,
   Query, Builder, BasicConfig, Config,
   BuilderProps
-} from "@react-awesome-query-builder/ui";
+} from "@314e-react-awesome-query-builder/ui";
 const {
   uuid, 
   checkTree, loadTree, _loadFromJsonLogic, loadFromSpel, isJsonLogic, elasticSearchFormat,
   queryString, sqlFormat, _sqlFormat, spelFormat, mongodbFormat, jsonLogicFormat, queryBuilderFormat, getTree, ConfigUtils
 } = Utils;
-import { AntdConfig } from "@react-awesome-query-builder/antd";
-import { MuiConfig } from "@react-awesome-query-builder/mui";
-import { MaterialConfig } from "@react-awesome-query-builder/material";
-import { BootstrapConfig } from "@react-awesome-query-builder/bootstrap";
-import { FluentUIConfig } from "@react-awesome-query-builder/fluent";
+import { AntdConfig } from "@314e-react-awesome-query-builder/antd";
+import { MuiConfig } from "@314e-react-awesome-query-builder/mui";
+import { MaterialConfig } from "@314e-react-awesome-query-builder/material";
+import { BootstrapConfig } from "@314e-react-awesome-query-builder/bootstrap";
+import { FluentUIConfig } from "@314e-react-awesome-query-builder/fluent";
 
 
 let currentTest: string;

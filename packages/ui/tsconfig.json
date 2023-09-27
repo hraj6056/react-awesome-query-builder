@@ -20,7 +20,7 @@
     "moduleResolution": "node",
     "baseUrl": ".",
     "paths": {
-      "@react-awesome-query-builder/core": ["../core/modules"],
+      "@314e-react-awesome-query-builder/core": ["../core/modules"],
     },
     "skipLibCheck": true
   },

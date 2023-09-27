@@ -3,7 +3,7 @@ import { LazyStyleModule } from "../utils";
 // @ts-ignore
 //import antd from "antd/dist/antd.css"; // for v4
 // @ts-ignore
-import styles from "@react-awesome-query-builder/antd/css/styles.scss";
+import styles from "@314e-react-awesome-query-builder/antd/css/styles.scss";
 
 const ImportAntd: React.FC = () => {
   useEffect(() => {

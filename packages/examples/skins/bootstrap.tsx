@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { LazyStyleModule } from "../utils";
 // @ts-ignore
-import styles from "@react-awesome-query-builder/bootstrap/css/styles.scss";
+import styles from "@314e-react-awesome-query-builder/bootstrap/css/styles.scss";
 // @ts-ignore
 import bootstrap from "bootstrap/dist/css/bootstrap.min.css";
 

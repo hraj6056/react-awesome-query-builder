@@ -76,7 +76,7 @@ Currently there are 5 collections of widgets:
 
 Let's say you want to create new collection of widgets for new UI framework X to be used in this lib (and submit PR which is always welcomed!).  
 You can use any of this packages as a skeleton, eg. [mui](/packages/mui). I don't recommend to take [antd](/packages/antd) as example as it's more complicated.  
-Create new package `@react-awesome-query-builder/x` in [packages](/packages). 
+Create new package `@314e-react-awesome-query-builder/x` in [packages](/packages). 
 For a playground integrate it in [examples](/packages/examples) - add to `dependecies` in [package.json](/packages/examples/package.json), `paths` in [tsconfig.json](/packages/examples/tsconfig.json), `aliases` in [webpack.config.js](/packages/examples/webpack.config.js), `skinToConfig` in [config.tsx](/packages/examples/demo/config.tsx).
 
 Take [PR #727 to add Fluent UI widgets](https://github.com/ukrbublik/react-awesome-query-builder/pull/727) as an example.

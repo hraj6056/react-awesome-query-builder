@@ -2,7 +2,7 @@
 import React, {Component} from "react";
 import {
   Utils, Query, Builder
-} from "@react-awesome-query-builder/ui";
+} from "@314e-react-awesome-query-builder/ui";
 import loadedConfig from "./config";
 import loadedInitValue from "./init_value";
 import loadedInitLogic from "./init_logic";

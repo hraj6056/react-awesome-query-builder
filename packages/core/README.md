@@ -1,6 +1,6 @@
-# @react-awesome-query-builder/core
+# @314e-react-awesome-query-builder/core
 
-[![npm](https://img.shields.io/npm/v/@react-awesome-query-builder/core.svg)](https://www.npmjs.com/package/@react-awesome-query-builder/core)
+[![npm](https://img.shields.io/npm/v/@314e-react-awesome-query-builder/core.svg)](https://www.npmjs.com/package/@314e-react-awesome-query-builder/core)
 
 This package has core functionality to import/export/store query, provides utils and core config. 
 Can be used on server-side, does not require React.
@@ -8,7 +8,7 @@ Can be used on server-side, does not require React.
 ## Installation
 
 ```
-npm i @react-awesome-query-builder/core --save
+npm i @314e-react-awesome-query-builder/core --save
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ import {
   CoreConfig, Utils,
   // types
   TreeStore, TreeState, TreeActions, InputAction, JsonTree
-} from '@react-awesome-query-builder/core';
+} from '@314e-react-awesome-query-builder/core';
 
 // config
 const config = {

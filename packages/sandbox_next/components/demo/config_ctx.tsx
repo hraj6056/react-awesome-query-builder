@@ -5,7 +5,7 @@ import {
   AsyncFetchListValuesResult,
   ConfigContext,
   FieldProps,
-} from "@react-awesome-query-builder/mui";
+} from "@314e-react-awesome-query-builder/mui";
 import merge from "lodash/merge";
 import { ukUA } from "@mui/material/locale";
 //import { ukUA } from "@mui/x-date-pickers/locales"; // todo: throws "TypeError: date.clone is not a function"

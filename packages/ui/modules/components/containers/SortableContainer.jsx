@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "@314e-react-awesome-query-builder/core";
 import {connect} from "react-redux";
 import {logger} from "../../utils/stuff";
 import context from "../../stores/context";

@@ -1,4 +1,4 @@
-# @react-awesome-query-builder/tests
+# @314e-react-awesome-query-builder/tests
 
 Karma tests.
 
