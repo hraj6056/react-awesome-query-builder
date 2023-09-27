@@ -1,7 +1,7 @@
 {
-  "name": "@react-awesome-query-builder/sandbox-next",
+  "name": "@314e-react-awesome-query-builder/sandbox-next",
   "version": "6.4.1",
-  "description": "Demo for @react-awesome-query-builder",
+  "description": "Demo for @314e-react-awesome-query-builder",
   "repository": {
     "type": "git",
     "url": "https://github.com/ukrbublik/react-awesome-query-builder.git",
@@ -40,8 +40,8 @@
     "@mui/material": "^5.12.3",
     "@mui/system": "^5.12.3",
     "@mui/x-date-pickers": "^6.3.1",
-    "@react-awesome-query-builder/core": "workspace:^",
-    "@react-awesome-query-builder/mui": "workspace:^",
+    "@314e-react-awesome-query-builder/core": "workspace:^",
+    "@314e-react-awesome-query-builder/mui": "workspace:^",
     "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"

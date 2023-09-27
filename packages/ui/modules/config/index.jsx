@@ -1,7 +1,7 @@
 import React from "react";
 import * as Widgets from "../components/widgets";
 import * as CustomOperators from "../components/operators";
-import { CoreConfig, Utils } from "@react-awesome-query-builder/core";
+import { CoreConfig, Utils } from "@314e-react-awesome-query-builder/core";
 
 
 //----------------------------  conjunctions

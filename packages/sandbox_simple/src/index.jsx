@@ -2,7 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 import Demo from "./demo";
 
-import "@react-awesome-query-builder/ui/css/styles.scss";
+import "@314e-react-awesome-query-builder/ui/css/styles.scss";
 
 function App() {
   return (

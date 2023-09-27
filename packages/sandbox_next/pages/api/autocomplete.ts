@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { Utils, AsyncFetchListValuesResult, AsyncFetchListValuesFn } from "@react-awesome-query-builder/core";
+import { Utils, AsyncFetchListValuesResult, AsyncFetchListValuesFn } from "@314e-react-awesome-query-builder/core";
 import demoListValues from "../../data/autocomplete";
 
 // API to return portion of `demoListValues`, requested by `search` and `offset`, limited by `PAGE_SIZE`

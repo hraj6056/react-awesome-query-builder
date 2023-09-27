@@ -1,8 +1,8 @@
-import {BasicConfig} from "@react-awesome-query-builder/ui";
+import {BasicConfig} from "@314e-react-awesome-query-builder/ui";
 import {MuiWidgets} from "./widgets";
 
 export declare const MuiConfig: BasicConfig;
 export declare const MuiWidgets: MuiWidgets;
 
 // re-export
-export * from "@react-awesome-query-builder/ui";
+export * from "@314e-react-awesome-query-builder/ui";

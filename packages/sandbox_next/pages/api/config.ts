@@ -4,7 +4,7 @@ import {
   //types:
   ZipConfig,
   Config
-} from "@react-awesome-query-builder/core";
+} from "@314e-react-awesome-query-builder/core";
 import { withSessionRoute, getSessionData, saveSessionData } from "../../lib/withSession";
 import serverConfig from "../../lib/config";
 

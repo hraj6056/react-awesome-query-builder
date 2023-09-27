@@ -1,4 +1,4 @@
-import { BasicConfig } from "@react-awesome-query-builder/ui";
+import { BasicConfig } from "@314e-react-awesome-query-builder/ui";
 import * as configs from "../support/configs";
 import * as inits from "../support/inits";
 import { with_qb, with_qb_ant, load_tree } from "../support/utils";

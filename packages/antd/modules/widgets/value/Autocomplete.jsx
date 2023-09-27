@@ -1,7 +1,7 @@
 import React, { useMemo, useCallback } from "react";
 import { Select, Spin, Divider } from "antd";
 import { calcTextWidth, SELECT_WIDTH_OFFSET_RIGHT } from "../../utils/domUtils";
-import { Hooks , Utils } from "@react-awesome-query-builder/ui";
+import { Hooks , Utils } from "@314e-react-awesome-query-builder/ui";
 const { fixListValuesGroupOrder } = Utils.Autocomplete;
 const { useListValuesAutocomplete } = Hooks;
 const Option = Select.Option;

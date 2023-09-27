@@ -1,8 +1,8 @@
 import * as configs from "../support/configs";
 import * as inits from "../support/inits";
 import { export_checks } from "../support/utils";
-import { Utils } from "@react-awesome-query-builder/core";
-import { BasicConfig } from "@react-awesome-query-builder/ui";
+import { Utils } from "@314e-react-awesome-query-builder/core";
+import { BasicConfig } from "@314e-react-awesome-query-builder/ui";
 
 describe("query with ops", () => {
   describe("export", () => {

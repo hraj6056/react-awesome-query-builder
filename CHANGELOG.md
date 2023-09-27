@@ -61,7 +61,7 @@
     - `styles.scss` now has vars that can be overridden to change colos and sizes
     - Breaking: Now `compact_styles.css` replaces `styles.css`, don't use them together
     - Breaking: Removed icon in "Add sub rule" button
-  - Added `@react-awesome-query-builder/fluent` package (PR #727)
+  - Added `@314e-react-awesome-query-builder/fluent` package (PR #727)
   - Fix import of `is_null` and `is_not_null` ops from SpEL (PR #831) (issue #794)
   - Fix import of NOT from SpEL (PR #852) (issue #834)
     Also fixes export of aggregation expression w/o children filter like `cars.size() == 2`

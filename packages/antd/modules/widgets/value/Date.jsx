@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@314e-react-awesome-query-builder/ui";
 import PropTypes from "prop-types";
 import { DatePicker } from "../moment";
 const { RangePicker } = DatePicker;

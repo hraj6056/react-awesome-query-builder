@@ -10,7 +10,7 @@ import * as CustomOperators from "./components/operators";
 import Utils from "./utils";
 
 // re-export
-export * from "@react-awesome-query-builder/core";
+export * from "@314e-react-awesome-query-builder/core";
 
 export {Query, Builder, BasicConfig, VanillaWidgets, CustomOperators, Hooks, Utils};
 

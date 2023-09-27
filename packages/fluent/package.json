@@ -1,5 +1,5 @@
 {
-  "name": "@react-awesome-query-builder/fluent",
+  "name": "@314e-react-awesome-query-builder/fluent",
   "version": "6.4.1",
   "description": "User-friendly query builder for React. Fluent 8 widgets",
   "keywords": [
@@ -46,7 +46,7 @@
     "tsc": "tsc -p . --noEmit"
   },
   "dependencies": {
-    "@react-awesome-query-builder/ui": "workspace:^"
+    "@314e-react-awesome-query-builder/ui": "workspace:^"
   },
   "devDependencies": {
     "@babel/cli": "^7.22.5",

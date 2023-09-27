@@ -1,6 +1,6 @@
 import React from "react";
 import FluentUIWidgets from "../widgets";
-import { BasicConfig, Utils } from "@react-awesome-query-builder/ui";
+import { BasicConfig, Utils } from "@314e-react-awesome-query-builder/ui";
 
 
 const settings = {

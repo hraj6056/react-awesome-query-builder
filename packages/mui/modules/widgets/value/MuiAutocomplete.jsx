@@ -9,7 +9,7 @@ import MenuItem from "@mui/material/MenuItem";
 import Check from "@mui/icons-material/Check";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import { Hooks } from "@react-awesome-query-builder/ui";
+import { Hooks } from "@314e-react-awesome-query-builder/ui";
 const { useListValuesAutocomplete } = Hooks;
 const emptyArray = [];
 

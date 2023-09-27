@@ -1,5 +1,5 @@
 import serializeJs from "serialize-javascript";
-import { Utils } from "@react-awesome-query-builder/core";
+import { Utils } from "@314e-react-awesome-query-builder/core";
 import mergeWith from "lodash/mergeWith";
 import omit from "lodash/omit";
 

@@ -1,13 +1,13 @@
-import { CoreConfig, Utils } from "@react-awesome-query-builder/core";
+import { CoreConfig, Utils } from "@314e-react-awesome-query-builder/core";
 import {
   Config, BasicConfig, Fields, Field,
   SelectField, AsyncFetchListValuesFn, SelectFieldSettings, NumberFieldSettings,
-} from "@react-awesome-query-builder/ui";
-import { MuiConfig } from "@react-awesome-query-builder/mui";
-import { MaterialConfig } from "@react-awesome-query-builder/material";
-import { AntdConfig } from "@react-awesome-query-builder/antd";
-import { BootstrapConfig } from "@react-awesome-query-builder/bootstrap";
-import { FluentUIConfig } from "@react-awesome-query-builder/fluent";
+} from "@314e-react-awesome-query-builder/ui";
+import { MuiConfig } from "@314e-react-awesome-query-builder/mui";
+import { MaterialConfig } from "@314e-react-awesome-query-builder/material";
+import { AntdConfig } from "@314e-react-awesome-query-builder/antd";
+import { BootstrapConfig } from "@314e-react-awesome-query-builder/bootstrap";
+import { FluentUIConfig } from "@314e-react-awesome-query-builder/fluent";
 import * as configs from "../support/configs";
 import * as inits from "../support/inits";
 import { export_checks, with_qb } from "../support/utils";

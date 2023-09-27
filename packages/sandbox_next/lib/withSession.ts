@@ -7,7 +7,7 @@ import {
 import { IronSession, IronSessionOptions } from "iron-session";
 import {
   JsonTree, ZipConfig
-} from "@react-awesome-query-builder/core";
+} from "@314e-react-awesome-query-builder/core";
 import { nanoid } from "nanoid";
 import { IncomingMessage } from "http";
 import { Redis } from "@upstash/redis";

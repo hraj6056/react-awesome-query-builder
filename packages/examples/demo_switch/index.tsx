@@ -5,10 +5,10 @@ import {
   JsonSwitchGroup,
   Config,
   ImmutableTree
-} from "@react-awesome-query-builder/ui";
+} from "@314e-react-awesome-query-builder/ui";
 import { LazyStyleModule } from "../utils";
 // @ts-ignore
-import styles from "@react-awesome-query-builder/material/css/styles.scss";
+import styles from "@314e-react-awesome-query-builder/material/css/styles.scss";
 import getConfig from "./config";
 
 (styles as LazyStyleModule).use();

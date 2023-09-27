@@ -43,20 +43,20 @@ let plugins = [
 ];
 
 let aliases = isMono ? {
-    '@react-awesome-query-builder/ui/css': UI_CSS,
-    '@react-awesome-query-builder/antd/css': ANTD_CSS,
-    '@react-awesome-query-builder/mui/css': MUI_CSS,
-    '@react-awesome-query-builder/material/css': MATERIAL_CSS,
-    '@react-awesome-query-builder/bootstrap/css': BOOTSTRAP_CSS,
-    '@react-awesome-query-builder/fluent/css': FLUENT_CSS,
+    '@314e-react-awesome-query-builder/ui/css': UI_CSS,
+    '@314e-react-awesome-query-builder/antd/css': ANTD_CSS,
+    '@314e-react-awesome-query-builder/mui/css': MUI_CSS,
+    '@314e-react-awesome-query-builder/material/css': MATERIAL_CSS,
+    '@314e-react-awesome-query-builder/bootstrap/css': BOOTSTRAP_CSS,
+    '@314e-react-awesome-query-builder/fluent/css': FLUENT_CSS,
     
-    '@react-awesome-query-builder/core': CORE_MODULES,
-    '@react-awesome-query-builder/ui': UI_MODULES,
-    '@react-awesome-query-builder/antd': ANTD_MODULES,
-    '@react-awesome-query-builder/mui': MUI_MODULES,
-    '@react-awesome-query-builder/material': MATERIAL_MODULES,
-    '@react-awesome-query-builder/bootstrap': BOOTSTRAP_MODULES,
-    '@react-awesome-query-builder/fluent': FLUENT_MODULES,
+    '@314e-react-awesome-query-builder/core': CORE_MODULES,
+    '@314e-react-awesome-query-builder/ui': UI_MODULES,
+    '@314e-react-awesome-query-builder/antd': ANTD_MODULES,
+    '@314e-react-awesome-query-builder/mui': MUI_MODULES,
+    '@314e-react-awesome-query-builder/material': MATERIAL_MODULES,
+    '@314e-react-awesome-query-builder/bootstrap': BOOTSTRAP_MODULES,
+    '@314e-react-awesome-query-builder/fluent': FLUENT_MODULES,
 } : {};
 
 let style_loaders = [{
@@ -67,7 +67,7 @@ const lazy_style_loaders = [
     loader: "style-loader", 
     options: {
         injectType: (
-            name && name.startsWith('@react-awesome-query-builder') || name === 'antd' || name === 'bootstrap' ?  
+            name && name.startsWith('@314e-react-awesome-query-builder') || name === 'antd' || name === 'bootstrap' ?  
             "lazyStyleTag" : "styleTag"
         )
     }

@@ -1,4 +1,4 @@
-import { TreeActions } from "@react-awesome-query-builder/core";
+import { TreeActions } from "@314e-react-awesome-query-builder/core";
 import * as drag from "./drag";
 const { tree, group, rule } = TreeActions;
 export {

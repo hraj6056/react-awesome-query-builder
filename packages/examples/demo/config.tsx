@@ -12,17 +12,17 @@ import {
   TextWidget,
   TreeSelectWidget,
   Config,
-} from "@react-awesome-query-builder/ui";
+} from "@314e-react-awesome-query-builder/ui";
 import moment from "moment";
 import ru_RU from "antd/es/locale/ru_RU";
 import { ruRU } from "@material-ui/core/locale";
 import { ruRU as muiRuRU } from "@mui/material/locale";
 
-import { AntdConfig, AntdWidgets } from "@react-awesome-query-builder/antd";
-import { MuiConfig } from "@react-awesome-query-builder/mui";
-import { MaterialConfig } from "@react-awesome-query-builder/material";
-import { BootstrapConfig } from "@react-awesome-query-builder/bootstrap";
-import { FluentUIConfig } from "@react-awesome-query-builder/fluent";
+import { AntdConfig, AntdWidgets } from "@314e-react-awesome-query-builder/antd";
+import { MuiConfig } from "@314e-react-awesome-query-builder/mui";
+import { MaterialConfig } from "@314e-react-awesome-query-builder/material";
+import { BootstrapConfig } from "@314e-react-awesome-query-builder/bootstrap";
+import { FluentUIConfig } from "@314e-react-awesome-query-builder/fluent";
 const {
   FieldSelect,
   FieldDropdown,

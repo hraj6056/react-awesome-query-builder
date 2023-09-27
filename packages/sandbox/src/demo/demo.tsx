@@ -10,7 +10,7 @@ import {
   Config,
   JsonTree,
   JsonLogicTree,
-} from "@react-awesome-query-builder/mui";
+} from "@314e-react-awesome-query-builder/mui";
 import throttle from "lodash/throttle";
 import loadedConfig from "./config_mui"; // or ""./config_antd"
 import loadedInitValue from "./init_value";

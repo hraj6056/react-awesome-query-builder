@@ -109,12 +109,12 @@ module.exports = {
     resolve: {
         extensions: ['.tsx', '.ts', '.js', '.jsx'],
         alias: {
-            '@react-awesome-query-builder/core': CORE,
-            '@react-awesome-query-builder/ui': UI,
-            '@react-awesome-query-builder/antd': ANTD,
-            '@react-awesome-query-builder/mui': MUI,
-            '@react-awesome-query-builder/material': MATERIAL,
-            '@react-awesome-query-builder/bootstrap': BOOTSTRAP,
+            '@314e-react-awesome-query-builder/core': CORE,
+            '@314e-react-awesome-query-builder/ui': UI,
+            '@314e-react-awesome-query-builder/antd': ANTD,
+            '@314e-react-awesome-query-builder/mui': MUI,
+            '@314e-react-awesome-query-builder/material': MATERIAL,
+            '@314e-react-awesome-query-builder/bootstrap': BOOTSTRAP,
         },
         fallback: {
           fs: false,

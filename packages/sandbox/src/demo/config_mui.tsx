@@ -3,10 +3,10 @@ import merge from "lodash/merge";
 import {
   Config, Settings, 
   MuiConfig,
-} from "@react-awesome-query-builder/mui";
+} from "@314e-react-awesome-query-builder/mui";
 import { createConfig } from "./config";
 import { ruRU } from "@mui/material/locale";
-import "@react-awesome-query-builder/mui/css/styles.scss";
+import "@314e-react-awesome-query-builder/mui/css/styles.scss";
 
 const configMixin = {
   settings: {

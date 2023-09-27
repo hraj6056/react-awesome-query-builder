@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
 import { TimePicker } from "../moment";
-import { Utils } from "@react-awesome-query-builder/ui";
+import { Utils } from "@314e-react-awesome-query-builder/ui";
 const { moment } = Utils;
 
 

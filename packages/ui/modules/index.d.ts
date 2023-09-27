@@ -62,10 +62,10 @@ import {
   CoreWidgets as _CoreWidgets,
   ConfigMixin as _ConfigMixin,
   ImmutableItem,
-} from "@react-awesome-query-builder/core";
+} from "@314e-react-awesome-query-builder/core";
 
 // re-export
-export * from "@react-awesome-query-builder/core";
+export * from "@314e-react-awesome-query-builder/core";
 
 /////////////////
 // override <C> in types
