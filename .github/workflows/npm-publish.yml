@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 16
           #cache: 'pnpm'
-      - run: pnpm i --no-frozen-file 
+      - run: pnpm i
       - run: echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
       - run: pnpm lint
       - run: pnpm test
@@ -37,7 +37,7 @@ jobs:
           node-version: 16
           #cache: 'pnpm'
           registry-url: https://registry.npmjs.org/
-      - run: pnpm i --no-frozen-file 
+      - run: pnpm i 
       - run: pnpm -r publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
